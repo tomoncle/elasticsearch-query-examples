@@ -2,47 +2,47 @@
 
 ```
 $ curl -XGET "http://192.168.84.25:9200/filebeat-*/_search" -H 'Content-Type: application/json' -d'
-> {
->   "query": {
->     "bool": {
->       "filter": [
->         {
->           "range": {
->             "@timestamp": {
->               "from": "2018-08-31 15:00:00.0 +0800",
->               "to": "2018-09-01 00:00:00.0 +0800",
->               "include_lower": true,
->               "include_upper": true,
->               "format": "yyyy-MM-dd HH:mm:ss.SSS Z",
->               "boost": 1
->             }
->           }
->         }
->       ]
->     }
->   },
->   "size": 0,
->   "aggs": {
->     "per_minute_request_times": {
->       "date_histogram": {
->         "field": "@timestamp",
->         "interval": "minute",
->         "time_zone": "+08:00"
->       },
->       "aggs": {
->         "genders": {
->           "terms": {
->             "field": "nginx.access.url",
->             "size": 1,
->             "order": {
->               "_count": "desc"
->             }
->           }
->         }
->       }
->     }
->   }
-> }'|python -m json.tool
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "range": {
+            "@timestamp": {
+              "from": "2018-08-31 15:00:00.0 +0800",
+              "to": "2018-09-01 00:00:00.0 +0800",
+              "include_lower": true,
+              "include_upper": true,
+              "format": "yyyy-MM-dd HH:mm:ss.SSS Z",
+              "boost": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "per_minute_request_times": {
+      "date_histogram": {
+        "field": "@timestamp",
+        "interval": "minute",
+        "time_zone": "+08:00"
+      },
+      "aggs": {
+        "genders": {
+          "terms": {
+            "field": "nginx.access.url",
+            "size": 1,
+            "order": {
+              "_count": "desc"
+            }
+          }
+        }
+      }
+    }
+  }
+}'|python -m json.tool
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  3121  100  2287  100   834   433k   158k --:--:-- --:--:-- --:--:--  446k
