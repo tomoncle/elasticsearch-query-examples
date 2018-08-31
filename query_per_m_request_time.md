@@ -1,6 +1,6 @@
-# 查询连续时间断内，每分钟所有url资源请求的状态，资源请求聚合的时间信息
+# 查询连续时间断内，每分钟内所有url资源请求，聚合后的响应时间信息
 ```
-$$ curl -XGET "http://192.168.84.25:9200/filebeat-*/_search" -H 'Content-Type: application/json' -d'
+$ curl -XGET "http://192.168.84.25:9200/filebeat-*/_search" -H 'Content-Type: application/json' -d'
 {
   "query": {
     "bool": {
