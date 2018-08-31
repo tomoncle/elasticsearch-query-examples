@@ -1,0 +1,592 @@
+[
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "QxSpjWUBeM8H3-brmoAX",
+    "_score": 1.0,
+    "_source": {
+      "offset": 14590,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/css/style.css",
+          "referrer": "http://192.168.84.38/",
+          "request_time": 1.463,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 1.463,
+          "body_sent": {
+            "bytes": "24385"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:06.005Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:04 +0000] \"GET /css/style.css HTTP/1.1\" 200 24385 \"http://192.168.84.38/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 1.463 1.463 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:04.000Z",
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      },
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "RBSpjWUBeM8H3-brmoAX",
+    "_score": 1.0,
+    "_source": {
+      "offset": 14849,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/js/jquery.min.js",
+          "referrer": "http://192.168.84.38/",
+          "request_time": 1.905,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 1.905,
+          "body_sent": {
+            "bytes": "95992"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:06.005Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:04 +0000] \"GET /js/jquery.min.js HTTP/1.1\" 200 95992 \"http://192.168.84.38/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 1.905 1.905 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:04.000Z",
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      },
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "RRSpjWUBeM8H3-brmoAX",
+    "_score": 1.0,
+    "_source": {
+      "offset": 15111,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/images/menu.png",
+          "referrer": "http://192.168.84.38/",
+          "request_time": 0.295,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 0.295,
+          "body_sent": {
+            "bytes": "144"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:06.005Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:04 +0000] \"GET /images/menu.png HTTP/1.1\" 200 144 \"http://192.168.84.38/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 0.295 0.295 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:04.000Z",
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      },
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "RxSpjWUBeM8H3-brmoAX",
+    "_score": 1.0,
+    "_source": {
+      "offset": 15634,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/imgs/github.png",
+          "referrer": "http://192.168.84.38/",
+          "request_time": 0.296,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 0.296,
+          "body_sent": {
+            "bytes": "1827"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:06.005Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:05 +0000] \"GET /imgs/github.png HTTP/1.1\" 200 1827 \"http://192.168.84.38/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 0.296 0.296 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:05.000Z",
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      },
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "SBSpjWUBeM8H3-brmoAX",
+    "_score": 1.0,
+    "_source": {
+      "offset": 15894,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/imgs/github_64px_blue.png",
+          "referrer": "http://192.168.84.38/",
+          "request_time": 0.298,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 0.298,
+          "body_sent": {
+            "bytes": "2166"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:06.005Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:05 +0000] \"GET /imgs/github_64px_blue.png HTTP/1.1\" 200 2166 \"http://192.168.84.38/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 0.298 0.298 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:05.000Z",
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      },
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "TBSpjWUBeM8H3-brmoAX",
+    "_score": 1.0,
+    "_source": {
+      "offset": 16968,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/js/jquery.flexslider.js",
+          "referrer": "http://192.168.84.38/",
+          "request_time": 0.737,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 0.737,
+          "body_sent": {
+            "bytes": "41110"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:06.005Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:05 +0000] \"GET /js/jquery.flexslider.js HTTP/1.1\" 200 41110 \"http://192.168.84.38/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 0.737 0.737 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:05.000Z",
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      },
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "URSpjWUBeM8H3-broYBK",
+    "_score": 1.0,
+    "_source": {
+      "offset": 18277,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/fonts/PontanoSans-Regular.ttf",
+          "referrer": "http://192.168.84.38/css/style.css",
+          "request_time": 2.147,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 2.147,
+          "body_sent": {
+            "bytes": "126596"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:08.006Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:07 +0000] \"GET /fonts/PontanoSans-Regular.ttf HTTP/1.1\" 200 126596 \"http://192.168.84.38/css/style.css\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 2.147 2.147 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:07.000Z",
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      },
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "UhSpjWUBeM8H3-broYBK",
+    "_score": 1.0,
+    "_source": {
+      "offset": 18566,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/images/img-sprite.png",
+          "referrer": "http://192.168.84.38/css/style.css",
+          "request_time": 1.495,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 1.495,
+          "body_sent": {
+            "bytes": "9095"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:08.006Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:07 +0000] \"GET /images/img-sprite.png HTTP/1.1\" 200 9095 \"http://192.168.84.38/css/style.css\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 1.495 1.495 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:07.000Z",
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      },
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "UxSpjWUBeM8H3-broYBK",
+    "_score": 1.0,
+    "_source": {
+      "offset": 18845,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/imgs/footerpng.png",
+          "referrer": "http://192.168.84.38/css/style.css",
+          "request_time": 3.092,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 3.092,
+          "body_sent": {
+            "bytes": "8993"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T01:47:09.007Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:01:47:08 +0000] \"GET /imgs/footerpng.png HTTP/1.1\" 200 8993 \"http://192.168.84.38/css/style.css\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 3.092 3.092 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T01:47:08.000Z",
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      },
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      }
+    }
+  },
+  {
+    "_index": "filebeat-6.4.0-2018.08.31",
+    "_type": "doc",
+    "_id": "dxRWjmUBeM8H3-brB7mW",
+    "_score": 1.0,
+    "_source": {
+      "offset": 20152,
+      "nginx": {
+        "access": {
+          "response_code": "200",
+          "method": "GET",
+          "user_name": "-",
+          "http_version": "1.1",
+          "remote_ip_list": [
+            "172.16.4.13"
+          ],
+          "url": "/js/jquery.min.js",
+          "referrer": "http://192.168.84.38/",
+          "request_time": 1.657,
+          "remote_ip": "172.16.4.13",
+          "upstream_response_time": 1.657,
+          "body_sent": {
+            "bytes": "95992"
+          },
+          "user_agent": {
+            "patch": "3112",
+            "major": "60",
+            "minor": "0",
+            "os": "Ubuntu",
+            "name": "Chromium",
+            "os_name": "Ubuntu",
+            "device": "Other"
+          }
+        }
+      },
+      "prospector": {
+        "type": "log"
+      },
+      "read_timestamp": "2018-08-31T04:55:26.382Z",
+      "source": "/var/log/nginx/access.log",
+      "message": "172.16.4.13 - - [31/Aug/2018:04:55:18 +0000] \"GET /js/jquery.min.js HTTP/1.1\" 200 95992 \"http://192.168.84.38/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36\" 1.657 1.657 .",
+      "fileset": {
+        "module": "nginx",
+        "name": "access"
+      },
+      "input": {
+        "type": "log"
+      },
+      "@timestamp": "2018-08-31T04:55:18.000Z",
+      "beat": {
+        "hostname": "tomoncle-nginx-filebeat.novalocal",
+        "name": "tomoncle-nginx-filebeat.novalocal",
+        "version": "6.4.0"
+      },
+      "host": {
+        "name": "tomoncle-nginx-filebeat.novalocal"
+      }
+    }
+  }
+]
