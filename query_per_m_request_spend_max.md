@@ -39,7 +39,16 @@ $ curl -XGET "http://192.168.84.25:9200/filebeat-*/_search" -H 'Content-Type: ap
           },
           "aggs": {
             "request_time_stats": {
-}'|python -m json.tool": "nginx.access.request_time"
+              "stats": {
+                "field": "nginx.access.request_time"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}'|python -m json.tool
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  3724  100  2697  100  1027   540k   205k --:--:-- --:--:-- --:--:--  658k
